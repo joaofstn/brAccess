@@ -4,8 +4,10 @@
 }
 
 body{
+	background-color: #f5f5f5;
 	margin: 0px;
 	border: none;
+	background-image: url(img/fundoclaro.jpg);
 }
 
 h1{
@@ -37,34 +39,46 @@ p{
 
 #titulos{
 	width: 100%;
-	height: 450px;
+	height: 250px;
 	margin-top: -51px;
 	background-color: #48515f;
 	padding-bottom: 50px;
 }
 
 #divcentral{
-	background-image: url(img/fundoclaro.jpg);
-	background-color: no-repeat;
-	width: auto;
-	margin-left: 20%;
-	border-top: 1px solid #ccc;
+	width: 900px;
+	margin-left: 17%;
+	border: 1px solid #0f0;
 }
 
 #pessoafisica{
-	width: auto;
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #f00;
+	width: 435px;
 	height: 700px;
 	float: left;
 }
+#txt_fisica{
+	font-size: 20px; 
+	color: #77ccca;
+	float: right;
+	position: relative;
+	right: 125px;
+	padding-top: 15px;
+	text-indent: 15px;
+}
 
 #pessoajuridica{
-	width: 400px;
+	border: 1px solid #ccc;
+	width: 440px;
 	height: 700px;
 	float:	right;
 }
 
 footer{
-	background-color: #f5f5f5;
+	color: #fff;
+	background-color: #151e2c;
 	width: 100%;
 	height: 70px;
 	padding-top: 27px;
